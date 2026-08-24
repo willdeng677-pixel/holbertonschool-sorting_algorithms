@@ -3,6 +3,12 @@
 
 #include <stddef.h>
 
+/**
+ * struct listint_s - Doubly linked list node
+ * @n: Integer
+ * @prev: Points to the previous node
+ * @next: Points to the next node
+ */
 /* Bubble sort */
 void bubble_sort(int *array, size_t size);
 
